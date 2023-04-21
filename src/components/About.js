@@ -1,8 +1,9 @@
-
+import { Container, Card } from "react-bootstrap"
 
 export default function About () {
     return (
-        <div className="aboutpage">
+        <Container>
+            <div className="aboutpage">
             <div className="aboutHeader">
                 <h1>About Us</h1>
             </div>
@@ -11,6 +12,8 @@ export default function About () {
             <p>Monty decided to travel around the world to find peace and happiness</p>
             <p>Upon his return, he dedicated about 1% of his wealth to open this Mineral SPA to bring joy and spiritual happiness to others</p>
             <img src="hotsprings.jpg" alt="hotsprings" />I 
-        </div>
+        </div> 
+        </Container>
+       
     )
 }
